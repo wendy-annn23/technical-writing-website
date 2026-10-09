@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the ABCs of Technical Writing and the principles of effective technical communication.">
+
+    <title>ABCs of Technical Writing | Technical Writing</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        .abc-lesson {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 22px 50px;
+        }
+
+        .abc-section {
+            background: #fff;
+            padding: 28px;
+            margin-bottom: 28px;
+            border-radius: 18px;
+            box-shadow: 0 5px 24px rgba(30, 55, 85, 0.08);
+        }
+
+        .abc-section h2 {
+            color: #244b78;
+            margin-top: 0;
+        }
+
+        .abc-section p {
+            line-height: 1.8;
+        }
+
+        .abc-hero-image {
+            display: block;
+            width: 100%;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin: 18px 0;
+            background: #fce7ef;
+        }
+
+        .abc-caption {
+            color: #65809c;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .abc-image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
+            margin-top: 22px;
+        }
+
+        .abc-image-card {
+            background: #f3f7fc;
+            border-radius: 14px;
+            overflow: hidden;
+            min-width: 0;
+        }
+
+        .abc-image-card img {
+            width: 100%;
+            height: 175px;
+            object-fit: cover;
+            display: block;
+            background: #fce7ef;
+        }
+
+        .abc-image-card div {
+            padding: 18px;
+        }
+
+        .abc-image-card h3 {
+            color: #244b78;
+            margin-top: 0;
+        }
+
+        .abc-image-card p {
+            margin-bottom: 0;
+        }
+
+        .abc-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 22px;
+        }
+
+        .abc-card {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            padding: 17px;
+            border: 1px solid #e1eaf4;
+            background: #f7faff;
+            border-radius: 13px;
+        }
+
+        .abc-letter {
+            min-width: 43px;
+            height: 43px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #244b78;
+            color: white;
+            font-size: 21px;
+            font-weight: bold;
+            border-radius: 12px;
+        }
+
+        .abc-card h3 {
+            margin: 0 0 7px;
+            color: #244b78;
+            font-size: 17px;
+        }
+
+        .abc-card p {
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .abc-note {
+            background: #eaf3fc;
+            padding: 22px;
+            border-left: 5px solid #3976b5;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+
+        .abc-note p {
+            margin-bottom: 0;
+        }
+
+        .abc-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 750px) {
+            .abc-image-grid,
+            .abc-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .abc-section {
+                padding: 20px;
+            }
+
+            .abc-hero-image {
+                height: 230px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html">
+                <img src="images/logo.png" alt="Technical Writing logo">
+                <span>Technical Writing</span>
+            </a>
+
+            <button class="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="lectures.html">Lectures</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Info</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- PAGE BANNER -->
+        <section class="page-banner">
+            <div class="container">
+                <p class="eyebrow">TECHNICAL WRITING • LESSON</p>
+                <h1 class="page-title">ABCs of Technical Writing</h1>
+                <p>
+                    Discover the principles that help writers create
+                    accurate, organized, clear, and effective documents.
+                </p>
+            </div>
+        </section>
+
+        <article class="abc-lesson">
+
+            <!-- INTRODUCTION -->
+            <section class="abc-section">
+                <p class="abc-caption">THE BIG IDEA</p>
+
+                <h2>What Are the ABCs of Technical Writing?</h2>
+
+                <img
+                    class="abc-hero-image"
+                    src="images/technical-writing.png"
+                    alt="Technical writing materials on a desk"
+                    onerror="this.style.display='none';">
+
+                <p>
+                    The ABCs of Technical Writing are principles that
+                    guide writers in preparing clear, accurate,
+                    organized, and professional documents. They help
+                    writers communicate information effectively and
+                    make reports easier for readers to understand.
+                </p>
+
+                <p>
+                    These principles cover accuracy, brevity,
+                    confidence, dignity, emphasis, facility,
+                    grammatical correctness, honesty, illustration,
+                    judgment, knowledge, logic, mechanical neatness,
+                    normal procedure, objectivity, planning,
+                    qualification, revision, straight sentences,
+                    thoroughness, unity, viewpoint, word choice,
+                    extra effort, you-point, and zest.
+                </p>
+            </section>
+
+            <!-- VISUAL EXAMPLES -->
+            <section class="abc-section">
+                <p class="abc-caption">VISUAL GUIDE</p>
+
+                <h2>Important Principles in Practice</h2>
+
+                <p>
+                    Technical writing combines correct information,
+                    clear organization, and appropriate visuals.
+                    Here are some examples of how these principles
+                    can be applied.
+                </p>
+
+                <div class="abc-image-grid">
+
+                    <!-- ACCURACY -->
+                    <div class="abc-image-card">
+                        <img
+                            src="images/accuray.png"
+                            alt="Laptop displaying charts and data"
+                            loading="lazy"
+                            onerror="this.style.display='none';">
+
+                        <div>
+                            <h3>Accuracy</h3>
+                            <p>
+                                Check facts, figures, and data before
+                                including them in a report.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- MECHANICAL NEATNESS -->
+                    <div class="abc-image-card">
+                        <img
+                            src="images/neatness.png"
+                            alt="People organizing documents and writing notes"
+                            loading="lazy"
+                            onerror="this.style.display='none';">
+
+                        <div>
+                            <h3>Mechanical Neatness</h3>
+                            <p>
+                                Present information using consistent
+                                formatting and an organized layout.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- REVISION -->
+                    <div class="abc-image-card">
+                        <img
+                            src="images/revision.png"
+                            alt="Notebook and pen for reviewing written work"
+                            loading="lazy"
+                            onerror="this.style.display='none';">
+
+                        <div>
+                            <h3>Revision</h3>
+                            <p>
+                                Review spelling, punctuation, statements,
+                                and the overall content before submitting.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ABC DEFINITIONS -->
+            <section class="abc-section">
+                <p class="abc-caption">A–Z LEARNING GUIDE</p>
+
+                <h2>Alphabet of Technical Writing</h2>
+
+                <p>
+                    Review each letter to understand the principles
+                    and their meanings. The definitions below use
+                    simplified wording to make them easier to study.
+                </p>
+
+                <div class="abc-grid">
+
+                    <div class="abc-card">
+                        <span class="abc-letter">A</span>
+                        <div>
+                            <h3>Accuracy</h3>
+                            <p>Tactfulness in recording data; record information correctly and carefully.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">B</span>
+                        <div>
+                            <h3>Brevity</h3>
+                            <p>Being direct to the point and expressing ideas concisely.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">C</span>
+                        <div>
+                            <h3>Confidence</h3>
+                            <p>Being decisive in communicating information.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">D</span>
+                        <div>
+                            <h3>Dignity</h3>
+                            <p>Showing courtesy to readers and maintaining a professional tone.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">E</span>
+                        <div>
+                            <h3>Emphasis</h3>
+                            <p>Knowing what is important to the reader and highlighting it appropriately.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">F</span>
+                        <div>
+                            <h3>Facility</h3>
+                            <p>Using devices and techniques that make a report easy to understand.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">G</span>
+                        <div>
+                            <h3>Grammatical Correctness</h3>
+                            <p>Using correct grammar, spelling, punctuation, and sentence construction.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">H</span>
+                        <div>
+                            <h3>Honesty</h3>
+                            <p>Citing sources and giving proper credit for borrowed information.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">I</span>
+                        <div>
+                            <h3>Illustration</h3>
+                            <p>Using charts, graphs, and diagrams to explain information.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">J</span>
+                        <div>
+                            <h3>Judgment</h3>
+                            <p>Qualifying data and evaluating gathered information carefully.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">K</span>
+                        <div>
+                            <h3>Knowledge</h3>
+                            <p>Building an appropriate collection of data and information about the subject.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">L</span>
+                        <div>
+                            <h3>Logic</h3>
+                            <p>Organizing ideas through logical reasoning and a sensible sequence.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">M</span>
+                        <div>
+                            <h3>Mechanical Neatness</h3>
+                            <p>Maintaining the general appearance and neatness of a report.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">N</span>
+                        <div>
+                            <h3>Normal Procedure</h3>
+                            <p>Following accepted procedures and conforming to general standards.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">O</span>
+                        <div>
+                            <h3>Objectivity</h3>
+                            <p>Considering the reader's perspective and presenting information fairly.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">P</span>
+                        <div>
+                            <h3>Planning</h3>
+                            <p>Giving purpose and direction to the writing process.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">Q</span>
+                        <div>
+                            <h3>Qualification</h3>
+                            <p>Evaluating ideas to determine which information should be included.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">R</span>
+                        <div>
+                            <h3>Revision</h3>
+                            <p>Checking statements, spelling, punctuation, and other details.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">S</span>
+                        <div>
+                            <h3>Straight Sentence</h3>
+                            <p>Using appropriate sentence structures and transitional devices to connect ideas.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">T</span>
+                        <div>
+                            <h3>Thoroughness</h3>
+                            <p>Providing the necessary substance and details of a report.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">U</span>
+                        <div>
+                            <h3>Unity</h3>
+                            <p>Maintaining coherence and connection among ideas.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">V</span>
+                        <div>
+                            <h3>Viewpoint</h3>
+                            <p>Considering the perspective from which information is written.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">W</span>
+                        <div>
+                            <h3>Word Choice</h3>
+                            <p>Avoiding words that are difficult to understand and choosing suitable terms.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">X</span>
+                        <div>
+                            <h3>Extra Effort</h3>
+                            <p>Taking additional care to improve the quality and completeness of a report.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">Y</span>
+                        <div>
+                            <h3>You-Point</h3>
+                            <p>Considering the reader's needs and making information useful to them.</p>
+                        </div>
+                    </div>
+
+                    <div class="abc-card">
+                        <span class="abc-letter">Z</span>
+                        <div>
+                            <h3>Zest</h3>
+                            <p>Writing in a lively and engaging way while keeping information clear and professional.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="abc-note">
+                    <strong>Remember this ✿</strong>
+                    <p>
+                        Effective technical writing requires more than
+                        correct grammar. Writers should organize ideas,
+                        verify facts, consider their readers, use suitable
+                        illustrations, and revise their work carefully.
+                    </p>
+                </div>
+
+                <div class="abc-buttons">
+                    <a class="button secondary" href="technical-writing.html">
+                        ← Back to Lectures
+                    </a>
+
+                    <a class="button" href="outlining-subject.html">
+                        Next Lesson →
+                    </a>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+
+            <a class="footer-brand" href="index.html">
+                <img src="images/logo.png" alt="">
+                <span>Technical Writing</span>
+            </a>
+
+            <p>Learn clearly. Write confidently. ✿</p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
